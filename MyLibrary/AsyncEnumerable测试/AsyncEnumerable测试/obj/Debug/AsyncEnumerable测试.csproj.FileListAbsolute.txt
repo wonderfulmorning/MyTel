@@ -1,0 +1,14 @@
+D:\workspace\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.exe.config
+D:\workspace\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.exe
+D:\workspace\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.pdb
+D:\workspace\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.exe
+D:\workspace\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.pdb
+C:\Users\Wu\Desktop\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.exe.config
+C:\Users\Wu\Desktop\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.exe
+C:\Users\Wu\Desktop\MyTel\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.pdb
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.exe.config
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.exe
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.pdb
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.exe
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\bin\Debug\AsyncEnumerable测试.pdb
+E:\workspace\MyTel集合\AsyncEnumerable测试\AsyncEnumerable测试\obj\Debug\AsyncEnumerable测试.csprojResolveAssemblyReference.cache

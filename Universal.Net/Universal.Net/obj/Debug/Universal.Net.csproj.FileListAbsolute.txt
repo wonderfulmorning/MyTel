@@ -1,0 +1,11 @@
+D:\workspace\MyTel\Universal.Net\Universal.Net\bin\Debug\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net\bin\Debug\Universal.Net.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net\obj\Debug\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net\obj\Debug\Universal.Net.pdb
+C:\Users\Wu\Desktop\Universal.Net\Universal.Net\obj\Debug\Universal.Net.csprojResolveAssemblyReference.cache
+C:\Users\Wu\Desktop\Universal.Net\Universal.Net\obj\Debug\Universal.Net.dll
+E:\workspace\MyTel集合\MyTel\Universal.Net\Universal.Net\obj\Debug\Universal.Net.csprojResolveAssemblyReference.cache
+E:\workspace\MyTel集合\MyTel\Universal.Net\Universal.Net\obj\Debug\Universal.Net.dll
+E:\workspace\MyTel集合\MyTel\Universal.Net\Universal.Net\bin\Debug\Universal.Net.dll
+E:\workspace\MyTel集合\MyTel\Universal.Net\Universal.Net\bin\Debug\Universal.Net.pdb
+E:\workspace\MyTel集合\MyTel\Universal.Net\Universal.Net\obj\Debug\Universal.Net.pdb

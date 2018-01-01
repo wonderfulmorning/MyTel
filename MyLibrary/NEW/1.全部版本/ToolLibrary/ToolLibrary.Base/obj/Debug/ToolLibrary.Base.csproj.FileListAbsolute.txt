@@ -1,0 +1,10 @@
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.XML
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Base\bin\Debug\InCom.DGS.ToolLibrary.Base.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Base\bin\Debug\InCom.DGS.ToolLibrary.Base.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Base\obj\Debug\InCom.DGS.ToolLibrary.Base.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Base\obj\Debug\InCom.DGS.ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.pdb

@@ -1,0 +1,10 @@
+D:\workspace\MyTel\Hbase\基础测试\Thrift\bin\Debug\Thrift.dll
+D:\workspace\MyTel\Hbase\基础测试\Thrift\bin\Debug\Thrift.pdb
+D:\workspace\MyTel\Hbase\基础测试\Thrift\obj\Debug\Thrift.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Hbase\基础测试\Thrift\obj\Debug\Thrift.dll
+D:\workspace\MyTel\Hbase\基础测试\Thrift\obj\Debug\Thrift.pdb
+E:\workspace\MyTel集合\Hbase\基础测试\Thrift\bin\Debug\Thrift.dll
+E:\workspace\MyTel集合\Hbase\基础测试\Thrift\bin\Debug\Thrift.pdb
+E:\workspace\MyTel集合\Hbase\基础测试\Thrift\obj\Debug\Thrift.csprojResolveAssemblyReference.cache
+E:\workspace\MyTel集合\Hbase\基础测试\Thrift\obj\Debug\Thrift.dll
+E:\workspace\MyTel集合\Hbase\基础测试\Thrift\obj\Debug\Thrift.pdb

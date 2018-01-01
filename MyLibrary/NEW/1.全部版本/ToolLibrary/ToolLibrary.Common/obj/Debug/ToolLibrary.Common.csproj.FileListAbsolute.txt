@@ -1,0 +1,17 @@
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.XML
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.csprojResolveAssemblyReference.cache
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\InCom.DGS.ToolLibrary.Common.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\InCom.DGS.ToolLibrary.Common.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\InCom.DGS.ToolLibrary.Base.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\InCom.DGS.ToolLibrary.Base.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\InCom.DGS.ToolLibrary.Common.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\InCom.DGS.ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.pdb

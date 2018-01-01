@@ -1,0 +1,6 @@
+D:\workspace\MyTel\Redis\Redis使用\创建连接\bin\Debug\创建连接.dll
+D:\workspace\MyTel\Redis\Redis使用\创建连接\bin\Debug\创建连接.pdb
+D:\workspace\MyTel\Redis\Redis使用\创建连接\bin\Debug\StackExchange.Redis.dll
+D:\workspace\MyTel\Redis\Redis使用\创建连接\obj\Debug\创建连接.dll
+D:\workspace\MyTel\Redis\Redis使用\创建连接\obj\Debug\创建连接.pdb
+D:\workspace\MyTel\Redis\Redis使用\创建连接\obj\Debug\创建连接.csprojResolveAssemblyReference.cache

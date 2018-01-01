@@ -1,0 +1,1 @@
+﻿Universal.Net.Base名称空间下，主要存放一些实体

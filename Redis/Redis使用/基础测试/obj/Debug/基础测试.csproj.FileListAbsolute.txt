@@ -1,0 +1,10 @@
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\基础测试.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\基础测试.pdb
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\protobuf-net.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\StackExchange.Redis.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\obj\Debug\基础测试.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Redis\Redis使用\基础测试\obj\Debug\基础测试.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\obj\Debug\基础测试.pdb
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\创建连接.dll
+D:\workspace\MyTel\Redis\Redis使用\基础测试\bin\Debug\创建连接.pdb

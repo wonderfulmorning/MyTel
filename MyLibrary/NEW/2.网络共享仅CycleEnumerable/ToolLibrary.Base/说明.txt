@@ -1,0 +1,3 @@
+﻿2017-02-06
+Ver 1.0.1.0
+1.CycleEnumerableEnum中添加了枚举类型Terminal，CycleEnumerableFlowHandle中添加了对应的Terminal属性

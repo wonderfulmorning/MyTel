@@ -1,0 +1,16 @@
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.pdb
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.dll
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.pdb
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.dll
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.pdb
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.csprojResolveAssemblyReference.cache
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.dll
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.XML
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.xml

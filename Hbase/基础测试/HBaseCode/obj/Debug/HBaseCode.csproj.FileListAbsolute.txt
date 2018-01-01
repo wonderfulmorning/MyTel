@@ -1,0 +1,7 @@
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\obj\Debug\HBaseCode.csprojResolveAssemblyReference.cache
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\bin\Debug\HBaseCode.dll
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\bin\Debug\HBaseCode.pdb
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\bin\Debug\Thrift.dll
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\bin\Debug\Thrift.pdb
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\obj\Debug\HBaseCode.dll
+E:\workspace\MyTel集合\Hbase\基础测试\HBaseCode\obj\Debug\HBaseCode.pdb

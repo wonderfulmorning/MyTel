@@ -1,0 +1,13 @@
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\Redis使用.exe.config
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\Redis使用.exe
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\Redis使用.pdb
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\obj\Debug\Redis使用.exe
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\obj\Debug\Redis使用.pdb
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\obj\Debug\Redis使用.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\protobuf-net.dll
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\StackExchange.Redis.dll
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\基础测试.dll
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\基础测试.pdb
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\创建连接.dll
+D:\workspace\MyTel\Redis\Redis使用\Redis使用\bin\Debug\创建连接.pdb

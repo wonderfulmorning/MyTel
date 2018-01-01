@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "基础测试", "基础测试\基础测试.csproj", "{E8848A0C-CB59-41FC-9BC3-C361623BD4AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift", "Thrift\Thrift.csproj", "{499EB63C-D74C-47E8-AE48-A2FC94538E9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第三方Hbase客户端", "第三方Hbase客户端", "{11875BAA-0ED4-44B2-9E19-09C7F96F39A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HBaseCode", "HBaseCode\HBaseCode.csproj", "{8F7346B3-55A2-4242-9348-B8706E73757D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8848A0C-CB59-41FC-9BC3-C361623BD4AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8848A0C-CB59-41FC-9BC3-C361623BD4AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8848A0C-CB59-41FC-9BC3-C361623BD4AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8848A0C-CB59-41FC-9BC3-C361623BD4AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{499EB63C-D74C-47E8-AE48-A2FC94538E9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499EB63C-D74C-47E8-AE48-A2FC94538E9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499EB63C-D74C-47E8-AE48-A2FC94538E9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499EB63C-D74C-47E8-AE48-A2FC94538E9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F7346B3-55A2-4242-9348-B8706E73757D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F7346B3-55A2-4242-9348-B8706E73757D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F7346B3-55A2-4242-9348-B8706E73757D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F7346B3-55A2-4242-9348-B8706E73757D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{499EB63C-D74C-47E8-AE48-A2FC94538E9D} = {11875BAA-0ED4-44B2-9E19-09C7F96F39A4}
+		{8F7346B3-55A2-4242-9348-B8706E73757D} = {11875BAA-0ED4-44B2-9E19-09C7F96F39A4}
+	EndGlobalSection
+EndGlobal

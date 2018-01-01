@@ -1,0 +1,8 @@
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\bin\Debug\实际应用.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\bin\Debug\实际应用.pdb
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\bin\Debug\RabbitMQ.Client.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\bin\Debug\基础测试.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\bin\Debug\基础测试.pdb
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\obj\Debug\实际应用.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\obj\Debug\实际应用.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\实际应用\obj\Debug\实际应用.pdb

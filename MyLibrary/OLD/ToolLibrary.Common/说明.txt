@@ -1,0 +1,20 @@
+﻿2016-12-08
+Ver 1.0.6186.*
+1.CycleEnumerable的后台线程方法InnerWork中，进行了异步操作时的异常捕获：
+                    var result = MethodTimeOutTool.InvokeAction(
+                             () =>
+                             {
+                                 //未结束的异步操作累计+1
+                                 Interlocked.Increment(ref _unFinishedCount);
+                                 try
+                                 {
+                                     //捕获异常
+                                     hasvalue = this._innerEnumerator.MoveNext();
+                                 }
+                                 catch (Exception ex)
+                                 {
+                                     this.WriteError("InnerWork  后台工作中", "出现异常",ex );
+                                 }
+                                 //使用pack中的超时时间
+                             }, current.MethodTimeout, EndCallback
+                             );

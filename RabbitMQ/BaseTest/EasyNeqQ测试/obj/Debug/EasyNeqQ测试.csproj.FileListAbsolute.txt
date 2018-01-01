@@ -1,0 +1,6 @@
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\bin\Debug\EasyNeqQ测试.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\bin\Debug\EasyNeqQ测试.pdb
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\bin\Debug\EasyNetQ.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\obj\Debug\EasyNeqQ测试.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\obj\Debug\EasyNeqQ测试.dll
+D:\workspace\MyTel\RabbitMQ\BaseTest\EasyNeqQ测试\obj\Debug\EasyNeqQ测试.pdb

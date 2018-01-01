@@ -1,0 +1,4 @@
+D:\workspace\MyTel\Universal.Net\Universal.Net\bin\Release\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net\bin\Release\Universal.Net.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net\obj\Release\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net\obj\Release\Universal.Net.pdb

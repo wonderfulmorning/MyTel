@@ -1,0 +1,9 @@
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\应用1文章投票.exe.config
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\应用1文章投票.exe
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\应用1文章投票.pdb
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\protobuf-net.dll
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\bin\Debug\StackExchange.Redis.dll
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\obj\Debug\应用1文章投票.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\obj\Debug\应用1文章投票.exe
+D:\workspace\MyTel\Redis\应用1文章投票\应用1文章投票\obj\Debug\应用1文章投票.pdb

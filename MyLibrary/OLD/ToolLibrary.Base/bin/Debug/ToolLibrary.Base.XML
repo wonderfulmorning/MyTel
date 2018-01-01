@@ -1,0 +1,207 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToolLibrary.Base</name>
+    </assembly>
+    <members>
+        <member name="T:ToolLibrary.Base.Enums.CycleEnumerableEnum">
+            <summary>
+            CycleEnumerable用于操作流程的枚举项
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableEnum.Timeout">
+            <summary>
+            异步执行并关注方法超时，因为会在调用线程上阻塞等待超时，所以实际使用类似于同步操作
+            这种模式只适用于长时间执行的方法，如果方法执行非常快速(耗时不足毫秒)，不要使用这个模式
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableEnum.NotTimeout">
+            <summary>
+            同步执行不关注方法超时
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableEnum.Blocking">
+            <summary>
+            任务需要休眠
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableEnum.CancelCyle">
+            <summary>
+            撤销循环任务，即调用Cancle方法
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle">
+            <summary>
+            CycleEnumerable用于操作流程的封装体
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.HandleType">
+            <summary>
+            操作类型
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.MethodTimeout">
+            <summary>
+            方法执行的最大超时时间，单位毫秒
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.BlockingTimeout">
+            <summary>
+            阻塞超时时间，单位毫秒
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.CancelWhenMethodTimeout">
+            <summary>
+            当执行方法超时时中断任务
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.#ctor(ToolLibrary.Base.Enums.CycleEnumerableEnum,System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type">操作类型</param>
+            <param name="cancelWhenMethodTimeout">当执行方法超时是否中断任务</param>
+        </member>
+        <member name="M:ToolLibrary.Base.Enums.CycleEnumerableFlowHandle.#ctor(ToolLibrary.Base.Enums.CycleEnumerableEnum,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="type">操作类型</param>
+            <param name="methodtimeout">方法执行的最大超时时间，单位毫秒</param>
+            <param name="blockingtimeout">阻塞超时时间，单位毫秒</param>
+            <param name="cancelWhenMethodTimeout">当执行方法超时是否中断任务</param>
+        </member>
+        <member name="T:ToolLibrary.Base.Enums.CycleMethodPack">
+            <summary>
+            CycleMethodArray使用到的操作封装
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Base.Enums.CycleMethodPack.CanHandle">
+            <summary>
+            能否进行操作
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.Enums.MethodInvokeStatu">
+            <summary>
+            方法的执行状态
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.MethodInvokeStatu.Finished">
+            <summary>
+            正常完成
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.MethodInvokeStatu.Timeout">
+            <summary>
+            超时
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.Enums.MethodInvokeStatu.Suspend">
+            <summary>
+            被中断
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.ILoggor">
+            <summary>
+            日志接口
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.ILoggor.WritInfo(System.String)">
+            <summary>
+            写信息
+            </summary>
+            <param name="info">信息</param>
+        </member>
+        <member name="M:ToolLibrary.Base.ILoggor.WriteWarning(System.String)">
+            <summary>
+            写警告
+            </summary>
+            <param name="info">警告</param>
+        </member>
+        <member name="M:ToolLibrary.Base.ILoggor.WriteError(System.String,System.Exception)">
+            <summary>
+            写故障
+            </summary>
+            <param name="info">信息</param>
+            <param name="ex">故障</param>
+        </member>
+        <member name="T:ToolLibrary.Base.ConsoleLog">
+            <summary>
+            日志使用控制台输出
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.LogWriter">
+            <summary>
+            日志提供类
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Base.LogWriter.Instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.LogWriter.SetLoggor(ToolLibrary.Base.ILoggor)">
+            <summary>
+            初始化
+            </summary>
+            <param name="loggor"></param>
+        </member>
+        <member name="P:ToolLibrary.Base.LogWriter._innerLog">
+            <summary>
+            实际日志记录类 
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.IMethodWatch">
+            <summary>
+            方法监视
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.IMethodWatch.Invoke(System.Object)">
+            <summary>
+            执行方法
+            </summary>
+            <param name="o"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Base.IMethodWatch.Register(System.Delegate,System.Action,System.Action,System.Int32)">
+            <summary>
+            进行方法的注册
+            </summary>
+            <param name="action"></param>
+            <param name="afterfinished"></param>
+            <param name="aftertimeout"></param>
+            <param name="worktimeout"></param>
+            <returns></returns>
+        </member>
+        <member name="P:ToolLibrary.Base.IMethodWatch.OverTickCount">
+            <summary>
+            方法执行时程序所处的Tickcount
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Base.IMethodWatch.AllTimeOutCount">
+            <summary>
+            当前所有方法超时的总次数
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Base.ICircleThread">
+            <summary>
+            循环线程的接口
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.ICircleThread.Start(System.Object)">
+            <summary>
+            开始工作
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Base.ICircleThread.Stop">
+            <summary>
+            停止工作
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Base.ICircleThread.OnError">
+            <summary>
+            发生故障时触发
+            </summary>
+        </member>
+    </members>
+</doc>

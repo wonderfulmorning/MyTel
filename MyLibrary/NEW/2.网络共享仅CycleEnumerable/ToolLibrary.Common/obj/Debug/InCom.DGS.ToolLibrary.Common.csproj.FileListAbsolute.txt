@@ -1,0 +1,9 @@
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\InCom.DGS.ToolLibrary.Common.csprojResolveAssemblyReference.cache
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.xml
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\ToolLibrary.Common\obj\Debug\ToolLibrary.Common.pdb

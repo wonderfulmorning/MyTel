@@ -1,0 +1,37 @@
+﻿2017-03-31
+Ver 1.1.3.0
+1.CycleEnumerable的 void InnerWork() 方法中，总是会在迭代完成后重启新的迭代并释放旧迭代的资源，但是是否move就要求 IsCancellationRequested 没有被取消
+
+2017-03-24
+Ver 1.1.2.0
+1.CycleEnumerable的关闭方法TryClose中，进行了迭代器_innerEnumerator资源释放
+
+2017-03-24
+Ver 1.1.1.0
+1.修复了bug ，CycleEnumerable中的  void InnerWork() 方法，在迭代完成后是否需要重启迭代时，同时要求 IsCancellationRequested 没有被取消
+
+2017-02-06
+Ver 1.1.0.0
+1.CycleEnumerable中添加了属性IsDead，用来标注对象是否已经死亡；当枚举遍历到Terminal属性时，将其设置为true
+2.CycleEnumerableManager中在进行任务是否需要重建的时候，会判断CycleEnumerable的IsDead
+
+2016-12-08
+Ver 1.0.6186.*
+1.CycleEnumerable的后台线程方法InnerWork中，进行了异步操作时的异常捕获：
+                    var result = MethodTimeOutTool.InvokeAction(
+                             () =>
+                             {
+                                 //未结束的异步操作累计+1
+                                 Interlocked.Increment(ref _unFinishedCount);
+                                 try
+                                 {
+                                     //捕获异常
+                                     hasvalue = this._innerEnumerator.MoveNext();
+                                 }
+                                 catch (Exception ex)
+                                 {
+                                     this.WriteError("InnerWork  后台工作中", "出现异常",ex );
+                                 }
+                                 //使用pack中的超时时间
+                             }, current.MethodTimeout, EndCallback
+                             );

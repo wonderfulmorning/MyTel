@@ -1,0 +1,49 @@
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\MyLibrary.exe.config
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\MyLibrary.exe
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\obj\Debug\MyLibrary.exe
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\InCom.DGS.ToolLibrary.Base.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\InCom.DGS.ToolLibrary.Common.dll
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\InCom.DGS.ToolLibrary.Base.pdb
+D:\workspace\tfs_ff\车联项目组件库\11-inCOM.DGS.CommonLibrary\MyLibrary\bin\Debug\InCom.DGS.ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\MyLibrary.exe.config
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\bin\Debug\ToolLibrary.Common.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\obj\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\MyLibrary.exe.config
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\obj\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享\MyLibrary\bin\Debug\ToolLibrary.Common.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅AsyncEnumerable\MyLibrary\bin\Debug\MyLibrary.exe.config
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅AsyncEnumerable\MyLibrary\obj\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅AsyncEnumerable\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\MyLibrary.exe.config
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\obj\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\obj\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\MyLibrary.exe
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\MyLibrary.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Common.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Base.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Common.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\bin\Debug\ToolLibrary.Common.xml
+D:\workspace\MyTel\MyLibrary 我的程序集\NEW\2.网络共享仅CycleEnumerable\MyLibrary\obj\Debug\MyLibrary.csprojResolveAssemblyReference.cache

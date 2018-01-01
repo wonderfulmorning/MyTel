@@ -1,0 +1,9 @@
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.dll
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.pdb
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.dll
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.pdb
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.dll
+E:\workspace\MyTel集合\MyLibrary 我的程序集\ToolLibrary.Base\obj\Debug\ToolLibrary.Base.pdb
+D:\workspace\MyTel\MyLibrary 我的程序集\ToolLibrary.Base\bin\Debug\ToolLibrary.Base.XML

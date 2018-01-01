@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{47A0576E-E71B-409E-BC8B-67AB87EE8E33}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Universal.Net</RootNamespace>
+    <AssemblyName>Universal.Net</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\IsolationMode.cs" />
+    <Compile Include="Counts\CounterHolder.cs" />
+    <Compile Include="Counts\ICountable.cs" />
+    <Compile Include="Counts\Counter.cs" />
+    <Compile Include="Distribute\BindingEnums.cs" />
+    <Compile Include="Distribute\BindingInfo\Binding.cs" />
+    <Compile Include="Distribute\BindingInfo\IBinding.cs" />
+    <Compile Include="Distribute\BindingServer.cs" />
+    <Compile Include="Distribute\DataDealer\Customer.cs" />
+    <Compile Include="Distribute\DataDealer\ICustomer.cs" />
+    <Compile Include="Distribute\DataDealer\IDataDealer.cs" />
+    <Compile Include="Distribute\DataReceiver\Exchange.cs" />
+    <Compile Include="Distribute\DataReceiver\IDataReceiver.cs" />
+    <Compile Include="Distribute\DataReceiver\IExchange.cs" />
+    <Compile Include="Distribute\DistributePolicy\DirectPolicy.cs" />
+    <Compile Include="Distribute\DistributePolicy\DistributePolicyFactory.cs" />
+    <Compile Include="Distribute\DistributePolicy\HashPolicy.cs" />
+    <Compile Include="Distribute\DistributePolicy\IDistributePolicy.cs" />
+    <Compile Include="Distribute\DistributePolicy\IDistributePolicyFactory.cs" />
+    <Compile Include="Distribute\IBindingObject.cs" />
+    <Compile Include="Distribute\IBindingServer.cs" />
+    <Compile Include="IO\FileIO\FileDataEntity.cs" />
+    <Compile Include="IO\FileIO\FileReadHelper.cs" />
+    <Compile Include="IO\FileIO\FileStoreTool.cs" />
+    <Compile Include="IO\FileIO\FileWriteHelper.cs" />
+    <Compile Include="IO\StoreRecoverHelper.cs" />
+    <Compile Include="Logging\ConsoleLog.cs" />
+    <Compile Include="Logging\ConsoleLogFactory.cs" />
+    <Compile Include="Logging\ILog.cs" />
+    <Compile Include="Logging\ILogFactory.cs" />
+    <Compile Include="Logging\LogFactoryBase.cs" />
+    <Compile Include="Pool\BasePool.cs" />
+    <Compile Include="Pool\PoolLimit.cs" />
+    <Compile Include="Pool\PoolStroePoolItem.cs" />
+    <Compile Include="Pool\PoolFoundation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Queue\BaseBlockingQueue.cs" />
+    <Compile Include="Queue\BaseQueue.cs" />
+    <Compile Include="Queue\QueueFundation.cs" />
+    <Compile Include="StateMachine.cs" />
+    <Compile Include="Utils\CheckUtil.cs" />
+    <Compile Include="Utils\StatusMachine.cs" />
+    <Compile Include="Utils\AssemblyUtil.cs" />
+    <Compile Include="Utils\BinaryUtil.cs" />
+    <Compile Include="Pool\BufferManager.cs" />
+    <Compile Include="Utils\DateTimeUtil.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Base\说明.txt" />
+    <Content Include="Counts\说明.txt" />
+    <Content Include="Pool\说明.txt" />
+    <Content Include="Queue\说明.txt" />
+    <Content Include="Utils\说明.txt" />
+    <Content Include="说明.txt" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\基础测试.exe.config
+E:\workspace\MyTel集合\Hbase\基础测试\基础测试\bin\Debug\基础测试.exe.config
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\基础测试.exe
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\基础测试.pdb
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\HBaseCode.dll
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\Thrift.dll
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\HBaseCode.pdb
+D:\workspace\MyTel\Hbase\基础测试\基础测试\bin\Debug\Thrift.pdb
+D:\workspace\MyTel\Hbase\基础测试\基础测试\obj\Debug\基础测试.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Hbase\基础测试\基础测试\obj\Debug\基础测试.exe
+D:\workspace\MyTel\Hbase\基础测试\基础测试\obj\Debug\基础测试.pdb

@@ -1,0 +1,9 @@
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Debug\Universal.Net.Test.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Debug\Universal.Net.Test.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Debug\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Debug\Universal.Net.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Debug\Universal.Net.Test.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Debug\Universal.Net.Test.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Debug\Universal.Net.Test.pdb
+C:\Users\Wu\Desktop\Universal.Net\Universal.Net.Test\obj\Debug\Universal.Net.Test.csprojResolveAssemblyReference.cache
+C:\Users\Wu\Desktop\Universal.Net\Universal.Net.Test\obj\Debug\Universal.Net.Test.dll

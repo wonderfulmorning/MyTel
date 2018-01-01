@@ -1,0 +1,656 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ToolLibrary.Common</name>
+    </assembly>
+    <members>
+        <member name="T:ToolLibrary.Common.AboutArray.CustomSortedList`1">
+            <summary>
+            因为使用系统的排序集合SortedSet，比较结果相同的值不会被插入，不满足使用要求
+            自定义排序集合，采用二分检索
+            要求泛型必须是可排序的，类型不支持传入其他排序方式来进行排序
+            
+            经测试，10W容量排序时，耗时3000毫秒左右
+                          100w容量排序时，耗时310000毫秒左右
+                     性能需要优化
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.CustomSortedList`1.#ctor(System.Collections.Generic.IList{`0})">
+            <summary>
+            构造函数
+            </summary>
+            <param name="list"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.CustomSortedList`1.Add(`0)">
+            <summary>
+             隐藏父类的Add方法,添加数据时进行排序
+            </summary>
+            <param name="t"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.CustomSortedList`1.IndexOf(`0,System.Collections.Generic.IList{`0},System.Int32,System.Int32)">
+            <summary>
+            二分检索，检索一个值合适的位置
+            </summary>
+            <param name="terminalCode"></param>
+            <param name="lst"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutArray.ThresholdList`1">
+            <summary>
+            带阈值的集合
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.ThresholdList`1.#ctor(System.Int32,ToolLibrary.Common.AboutArray.IDealWhenOverSheold)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="threshol"></param>
+            <param name="dealSheold"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.ThresholdList`1.Push(`0)">
+            <summary>
+            推送数据到队列中
+            </summary>
+            <param name="entity">对象实体</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.ThresholdList`1.StorWhenOverSheold(System.Object)">
+            <summary>
+            当容量超出阈值时触发
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.ThresholdList`1.RecorveWhenLowSheold(System.Object)">
+            <summary>
+            当符合条件时恢复数据
+            </summary>
+            <param name="obj"></param>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutArray.IDealWhenOverSheold">
+            <summary>
+            接口，提供当集合超出阈值时要进行的一些列处理
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.IDealWhenOverSheold.StorWhenOverSheold``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            当超出阈值时触发的处理
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="Entities">要被处理的对象</param>
+            <returns>没有被成功处理的对象</returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutArray.IDealWhenOverSheold.RecorveWhenLowSheold``1">
+            <summary>
+            当条件允许时进行的回复操作
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns>没有被成功回复的对象</returns>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutMethod.BaseMethodWatch">
+            <summary>
+            方法监视
+            
+            针对方法进行封装，可以对方法的执行时间进行监视,对方法执行时间添加超时监视
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutMethod.BaseMethodWatch.isParamed">
+            <summary>
+            执行方法是否带参
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.#ctor(System.Action,System.Int32)">
+            <summary>
+            构造函数,操作不带参数
+            </summary>
+            <param name="doHanle">方法要执行的具体操作</param>
+            <param name="maxTimOut">规定的超时时间，默认是0，即不限制超时</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.#ctor(System.Action{System.Object},System.Int32)">
+            <summary>
+            构造函数,操作带参数
+            </summary>
+            <param name="doHanle">方法要执行的具体操作</param>
+            <param name="maxTimOut">规定的超时时间，默认是0，即不限制超时</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.InvokeWithoutParam(System.Action)">
+            <summary>
+            不带参执行
+            </summary>
+            <param name="action"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.InvokeWithParam(System.Action{System.Object},System.Object)">
+            <summary>
+            带参执行
+            </summary>
+            <param name="action"></param>
+            <param name="o"></param>
+            <param name="isAsync"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.AfterTimeOut">
+            <summary>
+            方法超时时触发
+            </summary>
+            <param name="result"></param>
+            <param name="timeoutobj"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.AfterFinalFinished(System.IAsyncResult)">
+            <summary>
+            操作方法执行完成后
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.Invoke(System.Object)">
+            <summary>
+            执行委托
+            </summary>
+            <param name="o">参数</param>
+            <param name="isAsync">是否异步执行，默认true</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.Register(System.Delegate,System.Action,System.Action,System.Int32)">
+            <summary>
+            进行注册绑定
+            </summary>
+            <param name="action">执行方法</param>
+            <param name="afterfinished">完成后执行</param>
+            <param name="aftertimeout">超时后执行</param>
+            <param name="worktimeout">最大超时时间，单位毫秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.BaseMethodWatch.Dispose">
+            <summary>
+            注销
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutMethod.MethodTimeOutTool">
+            <summary>
+            监视方法超时的工具类
+            
+            这里面的所有方法实际上就是采用了委托的异步调用，这种计算异步实际就是在底层开启了线程进行处理
+            理论上与委托先调用begin同时立刻调用end效果相当，但是允许设置一个最大的等待时间。
+            
+            这个类里的所有方法都不适用于非常快速的操作，否则一定导致CPU和线程开销加剧；要求传入的操作耗时必须是毫秒单位
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.MethodTimeOutTool.InvokeAction(System.Action,System.Int32,System.Action{System.Object})">
+            <summary>
+            执行Action
+            </summary>
+            <param name="action">要被执行的Action</param>
+            <param name="InvokeTimeOut">方法超时时间</param>
+            <param name="callback">执行的回调</param>
+            <returns>方法执行状态</returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.MethodTimeOutTool.InvokeAction``1(System.Action{``0},``0,System.Int32,System.Action{System.Object})">
+            <summary>
+            执行带参数Action
+            </summary>
+            <param name="action">要被执行的Action</param>
+            <param name="statu">Action的参数</param>
+            <param name="InvokeTimeOut">方法超时时间</param>
+            <param name="callback">执行的回调</param>
+            <returns>方法执行状态</returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.MethodTimeOutTool.InvokeFunction``1(System.Func{``0},System.Int32,ToolLibrary.Base.Enums.MethodInvokeStatu@,System.Action{System.Object})">
+            <summary>
+            执行Function
+            返回值R
+            </summary>
+            <param name="func">要被执行的Function</param>
+            <param name="InvokeTimeOut">方法超时时间</param>
+            <param name="statu">方法执行状态</param>
+            <param name="callback">执行的回调</param>
+            <returns>Func执行结果</returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.MethodTimeOutTool.InvokeFunction``2(System.Func{``0,``1},``0,System.Int32,ToolLibrary.Base.Enums.MethodInvokeStatu@,System.Action{System.Object})">
+            <summary>
+            执行Function
+            返回值R，参数T
+            </summary>
+            <param name="func">要被执行的Function</param>
+            <param name="param">要被执行的Function的传入参数</param>
+            <param name="InvokeTimeOut">方法超时时间</param>
+            <param name="statu">方法执行状态</param>
+            <param name="callback">执行的回调</param>
+            <returns>Func执行结果</returns>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable">
+            <summary>
+            功能：简单的AsyncEnumerable，实现了基本的AsyncEnumerable功能，相当于一个工具类
+            适用场景：适用于外部将异步操作的begin和end方法放在一个迭代器中,中间通过一个yield return 来区分，避免了begin和end分开操作导致变量从局部升级为全局
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable._logformat">
+            <summary>
+            日志模板
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable._started">
+            <summary>
+            是否已经被调用过
+            0是没有，1是已经被调用过
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable._lock">
+            <summary>
+            线程锁
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable.Start(System.Collections.IEnumerator,System.AsyncCallback)">
+            <summary>
+            AsyncEnumerator对象开始工作
+            每一个SimpleAsyncEnumerable对象只能调用Start方法一次，再次调用需要使用新的对象
+            </summary>
+            <param name="enumerator">封装的异步操作集合</param>
+            <param name="end">所有操作完成后进行的回调</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable.EndAction(System.IAsyncResult)">
+            <summary>
+            _enumerator中每一个异步操作使用的回调函数都是这个方法
+            即迭代器中每次一个异步执行完成，都会在回调中调用这个方法
+            </summary>
+            <param name="ar"></param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable.Cancel">
+            <summary>
+            取消操作
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable.CancelWithTime(System.Int32)">
+            <summary>
+            延迟取消
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutMethod.SimpleAsyncEnumerable.CancelTimer">
+            <summary>
+            取消定时器
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutThread.CircleThread">
+            <summary>
+            循环执行方法的线程,保证方法持续执行
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.#ctor(ToolLibrary.Base.IMethodWatch,System.Int32,System.String,System.Boolean)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="methodWatch">传入的方法本体</param>
+            <param name="maxWorkTime">最大工作时长 单位毫秒</param>
+            <param name="autoRun">是否需要自动重启</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.Start(System.Object)">
+            <summary>
+            开始工作
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.Stop">
+            <summary>
+            停止工作
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.AttachWorkHandle">
+            <summary>
+            附加工作操作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.AttachFinishedHandle">
+            <summary>
+            附加结束工作的后续操作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.AttachTimeoutHandle">
+            <summary>
+            附加工作超时的后续操作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CircleThread.ThreadWait">
+            <summary>
+            线程休眠
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.CurrentThread">
+            <summary>
+            当前线程
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.ThreadName">
+            <summary>
+            线程名字
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.LastActiveTime">
+            <summary>
+            方法的最后活动时间
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.NeedWorkTime">
+            <summary>
+            方法执行的要求时长 单位毫秒
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.AutoRun">
+            <summary>
+            是否自动重启
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.MethodWatch">
+            <summary>
+            方法监视对象
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.IsRunning">
+            <summary>
+            是否执行
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CircleThread.OnError">
+            <summary>
+            如果触发了异常
+            </summary>
+        </member>
+        <!-- 对于成员“T:ToolLibrary.Common.AboutThread.CycleEnumerable”忽略有格式错误的 XML 注释 -->
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._logformat">
+            <summary>
+            日志模板
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._task">
+            <summary>
+            工作任务
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._thread">
+            <summary>
+            工作线程
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._threadPriority">
+            <summary>
+            工作线程的优先级
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._threading">
+            <summary>
+            是否采用了线程的工作方式
+            true 采用
+            false 未采用
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._lock">
+            <summary>
+            锁对象
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._blockingHandle">
+            <summary>
+            阻塞用handle
+            初始无信号，即阻塞；自旋次数最多20
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._cannelsource">
+            <summary>
+            任务取消对象
+            
+            如果该对象的IsCancellationRequested属性为true，则可以认为循环正在结束或已经结束，工作Task或Thread最终会在某个时刻自动结束
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerable._isCycling">
+            <summary>
+            是否正在循环工作
+            
+            主要用于外部来判断循环是否已经结束，如果为false，则可以任务循环一定已经结束了，工作Task或Thread已经结束工作。
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.#ctor(System.Collections.Generic.IEnumerable{ToolLibrary.Base.Enums.CycleEnumerableFlowHandle},System.Threading.CancellationTokenSource)">
+            <summary>
+            构造函数
+            采用Task开启后台任务
+            </summary>
+            <param name="enumerable">内部循环遍历的对象</param>
+            <param name="cancelle">任务观察对象</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.#ctor(System.Collections.Generic.IEnumerable{ToolLibrary.Base.Enums.CycleEnumerableFlowHandle},System.Threading.ThreadPriority,System.Threading.CancellationTokenSource)">
+            <summary>
+            构造函数
+            使用Thread开启后台任务
+            </summary>
+            <param name="enumerable">内部循环遍历的对象</param>
+            <param name="priority">Thread的优先级</param>
+            <param name="cancelle">任务观察对象</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.Start">
+            <summary>
+            开始工作
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.Stop(System.Int32)">
+            <summary>
+            停止后台循环工作
+            
+            它仅仅进行cancel，不会释放任何全局资源，但是会进行对象的状态检测，确认确实已经关闭成功后返回true
+            </summary>
+            <param name="stoptimeout">超时时间,单位毫秒，默认10秒</param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.Cancel">
+            <summary>
+            仅进行循环取消的操作
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.TryClose">
+            <summary>
+            结束对象生命周期，必须先调用Stop函数
+            尝试释放资源
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.ReBuild(System.Threading.CancellationTokenSource)">
+            <summary>
+            使用反射重建一个新对象
+            </summary>
+            <param name="soureins">模板对象</param>
+            <param name="cancelle">任务监视</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.Work">
+            <summary>
+            后台线程工作方法
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.MoveNext">
+            <summary>
+            进行迭代器的下一步操作，进行了异常捕获
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.Check">
+            <summary>
+            合法性检测
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.ConstructCheck(System.Collections.Generic.IEnumerable{ToolLibrary.Base.Enums.CycleEnumerableFlowHandle},System.Threading.CancellationTokenSource)">
+            <summary>
+            构造函数检测
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerable.EndCallback(System.Object)">
+            <summary>
+            异步操作结束后调用的回调
+            </summary>
+            <param name="o"></param>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerable.Name">
+            <summary>
+            当前对象的名称标记
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerable.LastInvokeTime">
+            <summary>
+            最后一次调用方法时的Environment.TickCount
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerable.IsWorking">
+            <summary>
+            当前对象是否工作正常
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerable.UnFinishedCount">
+             <summary>
+             当前对象中执行了BeginInvoke方法
+            但是 未执行EndInvoke方法的操作数量
+             </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._logformat">
+            <summary>
+            日志模板
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._stoptimeout">
+            <summary>
+            调用CycleEnumerable对象的Stop方法时的超时时间
+            单位毫秒，默认10秒
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager.Instance">
+            <summary>
+            单例
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._workingCycles">
+            <summary>
+            工作中的CycleEnumerablePack对象集合
+            这个队列会被多线程访问
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._stoppingCycles">
+            <summary>
+            停止中的CycleEnumerablePack对象集合
+            这个队列会被多线程访问
+            </summary>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._closingCycles">
+            <summary>
+            释放资源中的CycleEnumerablePack对象集合
+            这个队列会被多线程访问
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.Register(System.Collections.Generic.IEnumerable{ToolLibrary.Base.Enums.CycleEnumerableFlowHandle},System.Boolean,System.String,System.Threading.CancellationTokenSource,System.Boolean)">
+            <summary>
+            进行方法的注册
+            </summary>
+            <param name="cycle">内部循环遍历的对象</param>
+            <param name="autoRun">是否自动重新启动</param>
+            <param name="name">名称</param>
+            <param name="cts">取消对象,外部在cts上注册的取消回调函数，仅在第一次取消时有效</param>
+            <param name="startwork">是否立即开始工作，默认是</param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.Register(System.Collections.Generic.IEnumerable{ToolLibrary.Base.Enums.CycleEnumerableFlowHandle},System.Threading.ThreadPriority,System.Boolean,System.String,System.Threading.CancellationTokenSource,System.Boolean)">
+            <summary>
+            进行方法的注册
+            </summary>
+            <param name="cycle">内部循环遍历的对象</param>
+            <param name="priority">线程的优先级</param>
+            <param name="autoRun">是否自动重新启动</param>
+            <param name="name">名称</param>
+            <param name="cts">取消对象,外部在cts上注册的取消回调函数，仅在第一次取消时有效</param>
+            <param name="startwork">是否立即开始工作，默认是</param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.UnRegister(ToolLibrary.Common.AboutThread.CycleEnumerablePack)">
+            <summary>
+            取消注册
+            </summary>
+            <param name="cep">需要被取消的对象</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.OnCancelled(System.Object)">
+            <summary>
+            当任务被取消时触发
+            </summary>
+            <param name="cycle">这个对象的任务被取消</param>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._block">
+            <summary>
+            获取操作流程
+            所有操作都需要超时监视
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.DealWorkingcycles(ToolLibrary.Common.AboutThread.CycleEnumerablePack[])">
+            <summary>
+            处理工作队列
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.DealStoppingcycles(ToolLibrary.Common.AboutThread.CycleEnumerablePack[])">
+            <summary>
+            处理停止队列
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.DealClosingcycles(ToolLibrary.Common.AboutThread.CycleEnumerablePack[])">
+            <summary>
+            处理释放队列
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerableManager.GetMethodTimeout(ToolLibrary.Common.AboutThread.CycleEnumerablePack[])">
+            <summary>
+            计算方法执行的超时时间
+            </summary>
+            <param name="list">队列</param>
+            <returns></returns>
+        </member>
+        <member name="F:ToolLibrary.Common.AboutThread.CycleEnumerableManager._detailsb">
+            <summary>
+            处理外部命令
+            </summary>
+            <param name="commandName">命令名称</param>
+            <param name="objs">命令参数</param>
+            <returns></returns>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutThread.CycleEnumerablePack">
+            <summary>
+            对CycleEnumerable的封装
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerablePack.#ctor(System.Boolean,ToolLibrary.Common.AboutThread.CycleEnumerable)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="autoRun">是否会重新启动</param>
+            <param name="cycle">循环的具体操作</param>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerablePack.Clone(System.Threading.CancellationTokenSource)">
+            <summary>
+            复制对象
+            </summary>
+            <param name="cancelle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerablePack.Cancel">
+            <summary>
+            取消
+            </summary>
+        </member>
+        <member name="M:ToolLibrary.Common.AboutThread.CycleEnumerablePack.Start">
+            <summary>
+            开始工作
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerablePack.AutoRerun">
+            <summary>
+            是否自动重新运行
+            </summary>
+        </member>
+        <member name="P:ToolLibrary.Common.AboutThread.CycleEnumerablePack.Cycle">
+            <summary>
+            被封装的CycleEnumerable对象
+            </summary>
+        </member>
+        <member name="T:ToolLibrary.Common.AboutThread.CommandName">
+            <summary>
+            命令名称
+            </summary>
+        </member>
+    </members>
+</doc>

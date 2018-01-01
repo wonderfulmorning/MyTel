@@ -1,0 +1,1 @@
+﻿Universal.Net.Counts名称空间下，提供一些计数相关的函数和帮助类

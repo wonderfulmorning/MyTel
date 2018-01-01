@@ -1,0 +1,7 @@
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Release\Universal.Net.Test.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Release\Universal.Net.Test.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Release\Universal.Net.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\bin\Release\Universal.Net.pdb
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Release\Universal.Net.Test.csprojResolveAssemblyReference.cache
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Release\Universal.Net.Test.dll
+D:\workspace\MyTel\Universal.Net\Universal.Net.Test\obj\Release\Universal.Net.Test.pdb
